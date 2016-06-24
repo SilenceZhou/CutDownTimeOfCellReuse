@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07BAE0EDFCAC2D7D28F5F8D9 /* libPods-CountDownTimerForTableViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C42DE2EEFE4913D7DB1C29C /* libPods-CountDownTimerForTableViewTests.a */; };
+		4DE51881F9277A530A4CB417 /* libPods-CountDownTimerForTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6665E766D308B5E2C7A26397 /* libPods-CountDownTimerForTableView.a */; };
+		B5D3F3AD1B9F1CE7002BEA99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D3F3AC1B9F1CE7002BEA99 /* main.m */; };
+		B5D3F3B01B9F1CE7002BEA99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D3F3AF1B9F1CE7002BEA99 /* AppDelegate.m */; };
+		B5D3F3B31B9F1CE7002BEA99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D3F3B21B9F1CE7002BEA99 /* ViewController.m */; };
+		B5D3F3B61B9F1CE7002BEA99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D3F3B41B9F1CE7002BEA99 /* Main.storyboard */; };
+		B5D3F3B81B9F1CE7002BEA99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D3F3B71B9F1CE7002BEA99 /* Images.xcassets */; };
+		B5D3F3BB1B9F1CE7002BEA99 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5D3F3B91B9F1CE7002BEA99 /* LaunchScreen.xib */; };
+		B5D3F3C71B9F1CE7002BEA99 /* CountDownTimerForTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D3F3C61B9F1CE7002BEA99 /* CountDownTimerForTableViewTests.m */; };
+		B5D3F3D21BA1D013002BEA99 /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D3F3D11BA1D013002BEA99 /* TimeModel.m */; };
+		B5D3F44E1BA70363002BEA99 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D3F44D1BA70363002BEA99 /* BaseTableViewCell.m */; };
+		B5D3F4511BA7089A002BEA99 /* TimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D3F4501BA7089A002BEA99 /* TimeCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5D3F3C11B9F1CE7002BEA99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5D3F39F1B9F1CE7002BEA99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5D3F3A61B9F1CE7002BEA99;
+			remoteInfo = CountDownTimerForTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F55F5C7E4C7CD572C710385 /* Pods-CountDownTimerForTableViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountDownTimerForTableViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CountDownTimerForTableViewTests/Pods-CountDownTimerForTableViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6665E766D308B5E2C7A26397 /* libPods-CountDownTimerForTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CountDownTimerForTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C2051029FCA77A8740D6807 /* Pods-CountDownTimerForTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountDownTimerForTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CountDownTimerForTableView/Pods-CountDownTimerForTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		7C42DE2EEFE4913D7DB1C29C /* libPods-CountDownTimerForTableViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CountDownTimerForTableViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DABF29AC3C69308B389785E /* Pods-CountDownTimerForTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountDownTimerForTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-CountDownTimerForTableView/Pods-CountDownTimerForTableView.release.xcconfig"; sourceTree = "<group>"; };
+		B2E8D3DC8A5588CFFEC4F1D6 /* Pods-CountDownTimerForTableViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountDownTimerForTableViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CountDownTimerForTableViewTests/Pods-CountDownTimerForTableViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5D3F3A71B9F1CE7002BEA99 /* CountDownTimerForTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountDownTimerForTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D3F3AB1B9F1CE7002BEA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5D3F3AC1B9F1CE7002BEA99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5D3F3AE1B9F1CE7002BEA99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5D3F3AF1B9F1CE7002BEA99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5D3F3B11B9F1CE7002BEA99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5D3F3B21B9F1CE7002BEA99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5D3F3B51B9F1CE7002BEA99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5D3F3B71B9F1CE7002BEA99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5D3F3BA1B9F1CE7002BEA99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B5D3F3C01B9F1CE7002BEA99 /* CountDownTimerForTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountDownTimerForTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D3F3C51B9F1CE7002BEA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5D3F3C61B9F1CE7002BEA99 /* CountDownTimerForTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDownTimerForTableViewTests.m; sourceTree = "<group>"; };
+		B5D3F3D01BA1D013002BEA99 /* TimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeModel.h; sourceTree = "<group>"; };
+		B5D3F3D11BA1D013002BEA99 /* TimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeModel.m; sourceTree = "<group>"; };
+		B5D3F3D61BA1D1A8002BEA99 /* CommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
+		B5D3F44C1BA70363002BEA99 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		B5D3F44D1BA70363002BEA99 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		B5D3F44F1BA7089A002BEA99 /* TimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeCell.h; sourceTree = "<group>"; };
+		B5D3F4501BA7089A002BEA99 /* TimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5D3F3A41B9F1CE7002BEA99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE51881F9277A530A4CB417 /* libPods-CountDownTimerForTableView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D3F3BD1B9F1CE7002BEA99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BAE0EDFCAC2D7D28F5F8D9 /* libPods-CountDownTimerForTableViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06911BD4E3F3798DA91B6C07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6665E766D308B5E2C7A26397 /* libPods-CountDownTimerForTableView.a */,
+				7C42DE2EEFE4913D7DB1C29C /* libPods-CountDownTimerForTableViewTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B120090ECF7F80045373C08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C2051029FCA77A8740D6807 /* Pods-CountDownTimerForTableView.debug.xcconfig */,
+				8DABF29AC3C69308B389785E /* Pods-CountDownTimerForTableView.release.xcconfig */,
+				0F55F5C7E4C7CD572C710385 /* Pods-CountDownTimerForTableViewTests.debug.xcconfig */,
+				B2E8D3DC8A5588CFFEC4F1D6 /* Pods-CountDownTimerForTableViewTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5D3F39E1B9F1CE7002BEA99 = {
+			isa = PBXGroup;
+			children = (
+				B5D3F3A91B9F1CE7002BEA99 /* CountDownTimerForTableView */,
+				B5D3F3C31B9F1CE7002BEA99 /* CountDownTimerForTableViewTests */,
+				B5D3F3A81B9F1CE7002BEA99 /* Products */,
+				0B120090ECF7F80045373C08 /* Pods */,
+				06911BD4E3F3798DA91B6C07 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5D3F3A81B9F1CE7002BEA99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5D3F3A71B9F1CE7002BEA99 /* CountDownTimerForTableView.app */,
+				B5D3F3C01B9F1CE7002BEA99 /* CountDownTimerForTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5D3F3A91B9F1CE7002BEA99 /* CountDownTimerForTableView */ = {
+			isa = PBXGroup;
+			children = (
+				B5D3F3AE1B9F1CE7002BEA99 /* AppDelegate.h */,
+				B5D3F3AF1B9F1CE7002BEA99 /* AppDelegate.m */,
+				B5D3F3D61BA1D1A8002BEA99 /* CommonMacro.h */,
+				B5D3F3B11B9F1CE7002BEA99 /* ViewController.h */,
+				B5D3F3B21B9F1CE7002BEA99 /* ViewController.m */,
+				B5D3F3D01BA1D013002BEA99 /* TimeModel.h */,
+				B5D3F3D11BA1D013002BEA99 /* TimeModel.m */,
+				B5D3F44C1BA70363002BEA99 /* BaseTableViewCell.h */,
+				B5D3F44D1BA70363002BEA99 /* BaseTableViewCell.m */,
+				B5D3F44F1BA7089A002BEA99 /* TimeCell.h */,
+				B5D3F4501BA7089A002BEA99 /* TimeCell.m */,
+				B5D3F3B41B9F1CE7002BEA99 /* Main.storyboard */,
+				B5D3F3B71B9F1CE7002BEA99 /* Images.xcassets */,
+				B5D3F3B91B9F1CE7002BEA99 /* LaunchScreen.xib */,
+				B5D3F3AA1B9F1CE7002BEA99 /* Supporting Files */,
+			);
+			path = CountDownTimerForTableView;
+			sourceTree = "<group>";
+		};
+		B5D3F3AA1B9F1CE7002BEA99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5D3F3AB1B9F1CE7002BEA99 /* Info.plist */,
+				B5D3F3AC1B9F1CE7002BEA99 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5D3F3C31B9F1CE7002BEA99 /* CountDownTimerForTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5D3F3C61B9F1CE7002BEA99 /* CountDownTimerForTableViewTests.m */,
+				B5D3F3C41B9F1CE7002BEA99 /* Supporting Files */,
+			);
+			path = CountDownTimerForTableViewTests;
+			sourceTree = "<group>";
+		};
+		B5D3F3C41B9F1CE7002BEA99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5D3F3C51B9F1CE7002BEA99 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5D3F3A61B9F1CE7002BEA99 /* CountDownTimerForTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D3F3CA1B9F1CE7002BEA99 /* Build configuration list for PBXNativeTarget "CountDownTimerForTableView" */;
+			buildPhases = (
+				7C5987313F59E93EE1BE6A66 /* 📦 Check Pods Manifest.lock */,
+				B5D3F3A31B9F1CE7002BEA99 /* Sources */,
+				B5D3F3A41B9F1CE7002BEA99 /* Frameworks */,
+				B5D3F3A51B9F1CE7002BEA99 /* Resources */,
+				25000008F674A62F47F50FC3 /* 📦 Embed Pods Frameworks */,
+				9287643903857E3B42DC5D66 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountDownTimerForTableView;
+			productName = CountDownTimerForTableView;
+			productReference = B5D3F3A71B9F1CE7002BEA99 /* CountDownTimerForTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5D3F3BF1B9F1CE7002BEA99 /* CountDownTimerForTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D3F3CD1B9F1CE7002BEA99 /* Build configuration list for PBXNativeTarget "CountDownTimerForTableViewTests" */;
+			buildPhases = (
+				CF8470CBEE79B9A6295C3CAD /* 📦 Check Pods Manifest.lock */,
+				B5D3F3BC1B9F1CE7002BEA99 /* Sources */,
+				B5D3F3BD1B9F1CE7002BEA99 /* Frameworks */,
+				B5D3F3BE1B9F1CE7002BEA99 /* Resources */,
+				442C0518F056A9489F6D0623 /* 📦 Embed Pods Frameworks */,
+				D66E9F0A37C285946E0FEE80 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5D3F3C21B9F1CE7002BEA99 /* PBXTargetDependency */,
+			);
+			name = CountDownTimerForTableViewTests;
+			productName = CountDownTimerForTableViewTests;
+			productReference = B5D3F3C01B9F1CE7002BEA99 /* CountDownTimerForTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5D3F39F1B9F1CE7002BEA99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = FrankLiu;
+				TargetAttributes = {
+					B5D3F3A61B9F1CE7002BEA99 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B5D3F3BF1B9F1CE7002BEA99 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B5D3F3A61B9F1CE7002BEA99;
+					};
+				};
+			};
+			buildConfigurationList = B5D3F3A21B9F1CE7002BEA99 /* Build configuration list for PBXProject "CountDownTimerForTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5D3F39E1B9F1CE7002BEA99;
+			productRefGroup = B5D3F3A81B9F1CE7002BEA99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5D3F3A61B9F1CE7002BEA99 /* CountDownTimerForTableView */,
+				B5D3F3BF1B9F1CE7002BEA99 /* CountDownTimerForTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5D3F3A51B9F1CE7002BEA99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D3F3B61B9F1CE7002BEA99 /* Main.storyboard in Resources */,
+				B5D3F3BB1B9F1CE7002BEA99 /* LaunchScreen.xib in Resources */,
+				B5D3F3B81B9F1CE7002BEA99 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D3F3BE1B9F1CE7002BEA99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25000008F674A62F47F50FC3 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CountDownTimerForTableView/Pods-CountDownTimerForTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		442C0518F056A9489F6D0623 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CountDownTimerForTableViewTests/Pods-CountDownTimerForTableViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C5987313F59E93EE1BE6A66 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9287643903857E3B42DC5D66 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CountDownTimerForTableView/Pods-CountDownTimerForTableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF8470CBEE79B9A6295C3CAD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D66E9F0A37C285946E0FEE80 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CountDownTimerForTableViewTests/Pods-CountDownTimerForTableViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5D3F3A31B9F1CE7002BEA99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D3F44E1BA70363002BEA99 /* BaseTableViewCell.m in Sources */,
+				B5D3F3B31B9F1CE7002BEA99 /* ViewController.m in Sources */,
+				B5D3F4511BA7089A002BEA99 /* TimeCell.m in Sources */,
+				B5D3F3B01B9F1CE7002BEA99 /* AppDelegate.m in Sources */,
+				B5D3F3D21BA1D013002BEA99 /* TimeModel.m in Sources */,
+				B5D3F3AD1B9F1CE7002BEA99 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D3F3BC1B9F1CE7002BEA99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D3F3C71B9F1CE7002BEA99 /* CountDownTimerForTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5D3F3C21B9F1CE7002BEA99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5D3F3A61B9F1CE7002BEA99 /* CountDownTimerForTableView */;
+			targetProxy = B5D3F3C11B9F1CE7002BEA99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5D3F3B41B9F1CE7002BEA99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5D3F3B51B9F1CE7002BEA99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5D3F3B91B9F1CE7002BEA99 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5D3F3BA1B9F1CE7002BEA99 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5D3F3C81B9F1CE7002BEA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5D3F3C91B9F1CE7002BEA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5D3F3CB1B9F1CE7002BEA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C2051029FCA77A8740D6807 /* Pods-CountDownTimerForTableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CountDownTimerForTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = " ${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		B5D3F3CC1B9F1CE7002BEA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DABF29AC3C69308B389785E /* Pods-CountDownTimerForTableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CountDownTimerForTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = " ${SRCROOT}/**";
+			};
+			name = Release;
+		};
+		B5D3F3CE1B9F1CE7002BEA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F55F5C7E4C7CD572C710385 /* Pods-CountDownTimerForTableViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CountDownTimerForTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountDownTimerForTableView.app/CountDownTimerForTableView";
+			};
+			name = Debug;
+		};
+		B5D3F3CF1B9F1CE7002BEA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2E8D3DC8A5588CFFEC4F1D6 /* Pods-CountDownTimerForTableViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CountDownTimerForTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountDownTimerForTableView.app/CountDownTimerForTableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5D3F3A21B9F1CE7002BEA99 /* Build configuration list for PBXProject "CountDownTimerForTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D3F3C81B9F1CE7002BEA99 /* Debug */,
+				B5D3F3C91B9F1CE7002BEA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5D3F3CA1B9F1CE7002BEA99 /* Build configuration list for PBXNativeTarget "CountDownTimerForTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D3F3CB1B9F1CE7002BEA99 /* Debug */,
+				B5D3F3CC1B9F1CE7002BEA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5D3F3CD1B9F1CE7002BEA99 /* Build configuration list for PBXNativeTarget "CountDownTimerForTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D3F3CE1B9F1CE7002BEA99 /* Debug */,
+				B5D3F3CF1B9F1CE7002BEA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5D3F39F1B9F1CE7002BEA99 /* Project object */;
+}
